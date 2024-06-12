@@ -185,9 +185,130 @@ body {
 
 
 /* --- EXPERIENCE PAGE --- */
-.bodyExperience{
-    background-color: #3d404c;
+.bodyExperience {
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+
 }
+.bodyExperience p {
+    font-size: medium;
+    text-indent: 35px;
+}
+
+.navExperience {
+    
+    margin-left: 47px;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
+.navExperience ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navExperience li {
+    margin: 25px 0;
+}
+.navExperience a {
+    text-decoration: none;
+    color: #007BFF;
+    padding: 6px 8px 6px 16px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+.navExperience a:hover {
+    color: black;
+}
+
+.navExperience h2{
+    padding: 6px 8px 6px 16px;
+}
+
+.contentExperience {
+
+
+    background-color: #fff;
+    margin-left: 350px;    
+    font-size: 28px;
+    padding: 0px 10px;
+    margin-right: 47px;
+}
+.contentExperience p{
+    text-align: justify;
+}
+.contentExperience h1{
+    margin-bottom: 0;
+    font-size: 55px;
+}
+
+.contentExperience h3{
+    margin-top: 1;
+    font-size: 25px;
+}
+
+.resumeDownload h2{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.resumeDownload a{
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.myHobbies p{
+    float: right;
+    width: 35%;
+    height: auto;
+    margin-left: 25px;
+}
+
+.aboutAvatar{
+    float: right;
+    width: 35%;
+    height: auto;
+    margin-left: 25px;
+}
+
+.imagePrinter{
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.footerExperience {
+    margin-top: 215px;
+    font-size: small;
+    color: #666;
+    margin-left: 0;
+    position: relative;
+    clear: both;
+    text-align: center;
+}
+
+.picture {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
 
 /* --- THIS CONTAINS THE CONTACT PAGE --- */
 
