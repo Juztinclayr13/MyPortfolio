@@ -1,0 +1,86 @@
+/* -- BODY GLOBAL STYLE -- */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+body p {
+    font-size: medium;
+}
+
+/* -- NAVIGATION BAR GLOBAL STYLE -- */
+.nav {
+    margin-left: 47px;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+    margin: 25px 0;
+}
+.nav a {
+    text-decoration: none;
+    color: blue;
+    padding: 6px 8px 6px 16px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+.nav a:hover {
+    color: black;
+}
+.nav h3{
+    padding: 6px 8px 6px 16px;
+    margin-bottom: 0;
+}
+.nav h1{
+    padding: 6px 8px 6px 16px;
+    margin-bottom: 0;
+}
+
+/* -- RESUME DOWNLOAD DESIGN STYLE -- */
+.imagePrinter{
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.resumeDownload h2{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.resumeDownload a{
+    font-size: 15px;
+    margin-top: 0;
+}
+
+/* -- FLEX GLOBAL DESIGN -- */
+.flex{
+    display: flex;
+}
+
+/* -- FOOTER GLOBAL STYLE -- */
+.footer {
+    margin-top: 25px;
+    font-size: small;
+    color: #666;
+    margin-left: 0;
+    position: relative;
+    clear: both;
+    text-align: center;
+}

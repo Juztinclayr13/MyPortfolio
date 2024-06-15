@@ -1,0 +1,32 @@
+/* -- MAIN CONTENT OF MY ABOUT PAGE -- */
+.content {
+    background-color: #fff;
+    margin-left: 350px;    
+    font-size: 28px;
+    padding: 0px 10px;
+    margin-right: 47px;
+}
+.content p{
+    text-align: justify;
+    text-indent: 35px;
+}
+.content h1{
+    margin-bottom: 0;
+    font-size: 55px;
+}
+.content h3{
+    margin-top: 1;
+    font-size: 25px;
+}
+
+/* -- MY HOBBIES DESIGN -- */
+.box1{
+    width: 50%;
+}
+.box2{
+    width: 50%;
+    text-align: right;
+}
+.different{
+    text-align: right;
+}

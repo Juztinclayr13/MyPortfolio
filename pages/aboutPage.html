@@ -5,31 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juztin Abrenica | About</title>
     <link rel="icon" type="image/jpg" href="/images/webIcon.png">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/assets/css/aboutPage.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
 </head>
-<body class="bodyAbout">
-    <div class="navAbout">
-        <h2>Juztin Abrenica | ABOUT</h2>
-
+<body>
+    <div class="nav">
+        <div style="flex-direction: column; margin-bottom: 45px;">
+            <h1 style="font-size: 35px; line-height: 0; margin-bottom: 0; margin-top: 10px;">Clayr</h1>
+            <h1 style="font-size: 35px; line-height: 0; margin-bottom: 0;">Juztin</h1>
+            <h1 style="font-size: 35px; line-height: 0; margin-bottom: 0;">Abrenica</h1>
+            <h3 style="margin-top: 10px; margin-bottom: 0;"> | My Website Portfolio</h3>
+        </div>
         <ul>
             <li><a href="/index.html">HOME</a></li>
             <li><a href="/pages/aboutPage.html"> > ABOUT</a></li>
             <li><a href="/pages/experiencePage.html">EXPERIENCE</a></li>
-            <li><a href="/pages/errorPage.html">EDUCATION</a></li>
-            <li><a href="/pages/errorPage.html">SKILLS</a></li>
+            <li><a href="/pages/educationPage.html">EDUCATION</a></li>
+            <li><a href="/pages/skillsPage.html">SKILLS</a></li>
             <li><a href="/pages/contactPage.html">CONTACT</a></li>
         </ul>
-
     </div>
-    <div class="contentAbout">
+    <div class="content">
         <h1>Welcome To My Website!</h1>
         <h3>I'm Juztin Abrenica</h3>
-        <p>I am a recent computer science graduate with a deep passion for software development and all things related to technology. My journey through the world of coding and computer systems has equipped me with a robust skill set and a drive to continually learn and innovate. Here, you'll find a showcase of my projects, insights into my development process, and resources that reflect my commitment to leveraging technology to solve real-world problems.</p>
+        <p>
+            I am a recent computer science graduate with a deep passion for software development and all things related to technology. My journey through the world of coding and computer systems has equipped me with a robust skill set and a drive to continually learn and innovate. Here, you'll find a showcase of my projects, insights into my development process, and resources that reflect my commitment to leveraging technology to solve real-world problems.</p>
         <p>My enthusiasm for computer science extends beyond the classroom. I thrive on tackling complex challenges, exploring emerging technologies, and collaborating with like-minded individuals to create impactful solutions. Whether you're here to learn more about my work, seek inspiration, or discuss potential collaborations, I am excited to connect and share my journey with you. Thank you for visiting, and I hope you find the content both informative and inspiring.</p>
         
         <div class="resumeDownload">
             <hr>
-            <img class="imagePrinter" alt="printer" src="/images/printerIMG.png">
+            <img class="imagePrinter" alt="printer" src="/assets/images/printerIMG.png">
             <h2>Looking for my resume?</h2>
             <a href="/documents/Abrenica, Clayr Juztin C. (Resumé).pdf" download>Click here to donwload it!</a>
             <hr>
@@ -42,7 +47,7 @@
         </div>
 
         <div>
-            <img src="/images/figureOne.jpg" alt style="height: auto; width: 100%; margin-right: auto; margin-left: auto; display: block;">
+            <img src="/assets/images/figureOne.jpg" alt style="height: auto; width: 100%; margin-right: auto; margin-left: auto; display: block;">
             <p style="text-align: center; margin-top: 0;">
                 <sub>
                     <b>Figure 1:</b>
@@ -60,29 +65,41 @@
             </p>
 
         </div>
-        <div class="picture">
-            <div style="flex: 1 1 0%; text-align: justify; align-self: center; flex-direction: column;">
-                <h3>My Hobbies</h3>
-                <p>Beyond software, I have a lot of hobbies that I enjoy doing in my free time. The more tangible hobbies I have are <a href="/projects/music">Music Production</a> and creating <a href="/projects/art">Digital Art</a>. You can read more about each of these on their respective pages under my projects tab. Some other hobbies I enjoy are working out, cooking, and (unsurprisingly) playing video games.
+        <h3 style="margin-bottom: 0;">My Hobbies</h3>
+        <div class="flex">
+            <div class="box1">
+                <p>
+                    In my free time, one of my favorite hobbies is riding motorcycles. The thrill of the open road and the sense of freedom that comes with each ride are unparalleled. Whether it's a short trip around the city or a long journey through scenic routes, motorcycling offers me a unique way to unwind and connect with the world around me. It's not just about the ride; it's about the adventure, the exploration, and the feeling of being one with the machine and the road.
                 </p>
-                <p>In college, I was an active member in the fraternity Sigma Alpha Epsilon and held multiple positions in the chapter. I met a lot of amazing people through my fraternity and thoroughly enjoyed the community.
+                <p>
+                    Another hobby I enjoy is playing the guitar. While I don't play every day, picking up the guitar and strumming a few chords provides a relaxing and creative outlet. Music has always been a part of my life, and the guitar, in particular, allows me to express my emotions and ideas in a different way. Whether I'm playing for myself or sharing music with friends, the guitar brings a sense of joy and fulfillment that complements my technical pursuits in computer science.
+                </p>
+                <p>
+                    I also have a passion for camping and the great outdoors. There's something incredibly refreshing about escaping the hustle and bustle of daily life and immersing myself in nature. Camping trips offer a perfect balance of adventure and tranquility, allowing me to disconnect from technology and reconnect with the natural world. Whether it's hiking through forests, setting up camp by a serene lake, or stargazing around a campfire, these experiences rejuvenate my mind and spirit, providing a much-needed break from the fast-paced world of development and technology.
                 </p>
             </div>
-            <div style="align-self: center; margin-left: 32px; flex: 0.8 1 0%; align-items: center; text-align: center; flex-direction: column;">
-                <img src="/images/sampleAvatar.jpg" alt style="height: auto; width: 50%;">
-                <p>
+    
+            <div class="box2" style="margin-left: 15px;">
+                <img src="/assets/images/sampleAvatar.jpg" alt style="margin-top: 20px; height: auto; width: 100%; display: flex; justify-content: center; align-items: center;;">
+                <h4 style="margin-top: 0; font-size: small; text-align: center;">
                     <sub>
                         <b>Figure 2:</b>
-                        Me, April 2024
+                        Me, July 2024
                     </sub>
-                </p>
+                </h4>
             </div>
         </div>
 
+        <div>
+            <p>
+                I want to extend my heartfelt thanks to each and every one of you who took the time to visit my about me page. Your interest in my journey and passions means the world to me. It's your support and encouragement that fuel my dedication to computer science, development projects, and all the hobbies that bring joy to my life. Whether you're here out of curiosity, seeking inspiration, or considering collaboration, I am deeply grateful for your presence.
+            </p>
+            <p>
+                Please feel free to explore more of my website, where I share insights, projects, and experiences that reflect my commitment to innovation and problem-solving in the world of technology. If you have any questions or would like to connect further, don't hesitate to visit my contact page. Together, let's continue to explore and push the boundaries of what's possible. Thank you once again for being a part of this journey.
+            </p>
+        </div>
 
-
-
-        <div class="footerAbout">
+        <div class="footer">
             Copyright &copy; 2024 Juztin Abrenica. All rights reserved
         </div>
     
