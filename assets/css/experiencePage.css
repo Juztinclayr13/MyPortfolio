@@ -1,0 +1,28 @@
+.content {
+    background-color: #fff;
+    margin-left: 350px;    
+    font-size: 28px;
+    padding: 0px 10px;
+    margin-right: 47px;
+    height: 180%;
+}
+
+.company{
+    width: 50%;
+}
+
+.company p{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.datesLocations{
+    width: 50%;
+}
+
+.datesLocations p{
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
