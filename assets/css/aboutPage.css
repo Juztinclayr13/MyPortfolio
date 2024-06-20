@@ -5,18 +5,16 @@
     font-size: 28px;
     padding: 0px 10px;
     margin-right: 47px;
+    width: 50%;
 }
 .content p{
     text-align: justify;
     text-indent: 35px;
 }
-.content h1{
-    margin-bottom: 0;
-    font-size: 55px;
-}
 .content h3{
-    margin-top: 1;
     font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
 
 /* -- MY HOBBIES DESIGN -- */

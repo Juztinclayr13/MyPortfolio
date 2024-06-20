@@ -1,7 +1,7 @@
 /* -- BODY GLOBAL STYLE -- */
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0ff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,6 +12,16 @@ body {
 }
 body p {
     font-size: medium;
+}
+
+/* -- GLOBAL CONTENT DIMENTION -- */
+.content {
+    background-color: #fff;
+    margin-left: 350px;    
+    font-size: 28px;
+    padding: 0px 10px;
+    margin-right: 47px;
+    width: 100%;
 }
 
 /* -- NAVIGATION BAR GLOBAL STYLE -- */
