@@ -4,19 +4,29 @@
     font-size: 28px;
     padding: 0px 10px;
     margin-right: 47px;
-    height: 100%;
+    height: auto;
 }
-.content p{
-    text-align: justify;
+
+.school{
+    width: 95%;
 }
-.content h1{
+
+.school p{
+    text-align: left;
+    margin-top: 0;
     margin-bottom: 0;
-    font-size: 55px;
 }
 
-.content h3{
-    margin-top: 1;
-    font-size: 25px;
+.datesLocations{
+    width: 25%;
 }
 
+.datesLocations p{
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+.educFlex{
+display: flex;
+}
